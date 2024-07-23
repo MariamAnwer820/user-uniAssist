@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'pacifico', cursive;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #413e3e63;
+    padding: 20px 0px;
+    margin-bottom: 50px;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+
+}
+
+
+img {
+    height: 40px;
+    left: 30px;
+}
+
+.content ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+
+.content li {
+    margin-left: 60px;
+    letter-spacing: 1.2px;
+}
+
+.content li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+
+
+}
+
+.content li a:hover {
+    color: rgb(12, 180, 192);
+    border-bottom: 3px solid rgb(12, 180, 192);
+    padding-bottom: 18px;
+    transition: 0.3s;
+}
+
+#se {
+    color: rgb(12, 180, 192);
+
+}
+
+#search {
+    width: 100px;
+    border: transparent;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#login {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(12, 180, 192);
+    margin-top: 10px;
+}
+
+.content #login:hover {
+    color: rgb(12, 180, 192);
+    padding-bottom: 18px;
+    transition: 0.3s;
+}
+
+#edit {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #000;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+#edit:hover {
+    background-color: #3ccc;
+    color: #fff;
+    transition: 0.3s;
+
+}
+
+#delete {
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #3ccc;
+    border-radius: 5px;
+    padding: 6px 20px;
+    color: #fff;
+}
+
+#delete:hover {
+    background-color: #000;
+    transition: 0.3s;
+}
+
+#insert {
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: rgba(32, 0, 216, 0.8);
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: #fff;
+}
+
+#insert:hover {
+    background-color: rgba(5, 112, 112, 0.8);
+    transition: 0.3s;
+}
+
+#td {
+    padding: 25px;
+}
+
+table {
+    border: 1px solid #3ccc;
+    width: 80%;
+    margin: auto;
+
+}
+
+table td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+table th {
+    background-color: #3ccc;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: .8px;
+
+    position: relative;
+    top: 95px;
+    width: 100%;
+}
+
+.footer a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(51, 168, 177);
+    margin-left: 6px;
+}
+
+.footer i {
+    margin-left: 6px;
+}

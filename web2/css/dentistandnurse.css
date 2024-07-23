@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'pacifico', cursive;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: -99px; */
+    /* margin-top: 20px; */
+    background-color: #413e3e63;
+    padding: 20px 0px;
+    /* width: 100%; */
+    margin-bottom: 50px;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+
+}
+
+
+img {
+    height: 40px;
+    left: 30px;
+}
+
+.content ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/* .content #bt {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(12, 180, 192);
+    padding: 35px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 1.6px;
+    margin-left: 280px;
+    box-shadow: 0px 0px 3px 1px #00000021;
+    border-radius: 5px;
+}
+
+.content #bt:hover {
+    background-color: rgb(7, 153, 163);
+    transition: 0.5s;
+} */
+
+.content li {
+    margin-left: 60px;
+    letter-spacing: 1.2px;
+}
+
+.content li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+
+
+}
+
+.content li a:hover {
+    color: rgb(12, 180, 192);
+    border-bottom: 3px solid rgb(12, 180, 192);
+    padding-bottom: 18px;
+    transition: 0.3s;
+}
+
+.content li a.dentistactive {
+
+    border-bottom: 2px solid rgb(12, 180, 192);
+    padding-bottom: 18px;
+    color: rgb(12, 180, 192);
+}
+.thefirstdent {
+    text-align: center;
+    background-image: url(../images/Stocksy_txp0f15e34eE9g100_Medium_1514224-59d3dae8c412440010e9c2f3.jpg);
+    background-color: rgba(0, 0, 0, 0.418);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 500px;
+    margin-top: -120px;
+    text-align: center;
+    color: #fff;
+    /* text-align: center; */
+    padding-top: 200px;
+    text-transform: capitalize;
+
+}
+
+/* .thefirstdent h2 {
+    text-transform: capitalize;
+    padding-top: 150px;
+    padding-left: 50px;
+
+
+}
+ .thefirstdent p{
+    text-transform: capitalize;
+    width: 400px;
+    /* position: absolute;
+  left: 35%; */
+
+
+/* }  */
+
+.theseconddent {
+margin-top: 0px;}
+.docotors {
+    background-color: rgba(221, 221, 221, 0.37);
+    margin-bottom: 50px;
+    padding: 20px 0;
+}
+
+
+/* .heading1 { */
+/* margin-bottom: 80px; */
+/* } */
+.flex1 {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* margin-left: -50px; */
+    margin: 0 50px;
+    padding-bottom: 50px;
+    /* background-color: #fff; */
+    /* background-color: #ddd; */
+
+}
+
+.fa-twitter {
+    color: #fff;
+    border: 1px slid transparent;
+    background-color: #00bcd4;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.fa-facebook-f {
+    color: #fff;
+    border: 1px slid transparent;
+    background-color: #00bcd4;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.fa-instagram {
+    color: #fff;
+    border: 1px slid transparent;
+    background-color: #00bcd4;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.ard1 {
+    overflow: hidden;
+    width: 400px;
+    position: relative;
+}
+
+.ard1:hover {
+    cursor: pointer;
+
+}
+
+.ard1:hover h2 {
+    padding-top: 20px;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.514);
+
+}
+
+.ard1:hover p {
+    visibility: visible;
+    margin-top: -150px;
+    color: rgba(0, 0, 0, 0.603);
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.288);
+    text-align: center;
+
+}
+
+.ard1:hover .social {
+    visibility: visible;
+    margin-top: 100px;
+}
+
+.fa-facebook-f {
+    color: #02adf7;
+    background-color: #fff;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.fa-instagram {
+    color: darksalmon;
+    font-size: 20px;
+    background-color: #fff;
+    margin-left: 5px;
+}
+
+.fa-twitter {
+    color: #02adf7;
+    background-color: #fff;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* .on .social i {
+    /* background-color: #02adf7; */
+
+/* } */
+
+.on .social i:hover {
+    background-color: transparent;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+
+.ard1:hover .on {
+    height: 300px;
+    position: absolute;
+    top: 150px;
+    visibility: visible;
+    background-color: #51839913;
+}
+
+.on h3 {
+    color: rgba(0, 0, 0, 0.719);
+    padding: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    /* text-shadow: 2px 0px 3px #0000004f; */
+    letter-spacing: 1.6px;
+    /* margin-bottom: 10px; */
+}
+
+.ard1:hover h3 {
+    color: #02adf7;
+    text-shadow: -1px 2px 8px rgba(0, 0, 0, 0.288);
+}
+
+.ard1:hover h3 {
+    visibility: visible;
+    /* margin-top: 5px;
+  margin-bottom: 10px; */
+}
+
+.mg img {
+    width: 285px;
+    height: 400px;
+    /* margin-left: 50px; */
+    /* box-shadow: 1px 2px 5px 3px #c9ccd9; */
+    border-radius: 7px;
+}
+
+/* .mg img:hover {
+  transform: scale(1.1) rotate(-3deg) ;
+  transition: 0.5s;
+} */
+.on {
+    text-align: center;
+    /* margin-top: 20px; */
+    margin-left: 50px;
+    background-color: #00bcd4;
+    width: 245px;
+    position: absolute;
+    bottom: 2px;
+    right: 40px;
+    border-radius: 5px;
+    /* margin-top: 5px; */
+    /* padding: 5px; */
+    /* padding-bottom: 10px;
+  margin-bottom: 70px;*/
+    height: 56px;
+
+}
+
+/* .on:hover{
+  cursor: pointer;
+  height: 245px;
+  position:absolute;
+  top: 200px;
+  visibility: visible;
+} */
+.on h2 {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.on h3,
+.on .social,
+.on p {
+    visibility: hidden;
+}
+
+.on p {
+    color: rgba(0, 0, 0, 0.719);
+    /* padding: 10px; */
+    font-size: 17px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+.on .social {
+    padding-top: 8px;
+}
+.thefourthdent{
+    background-color: rgba(221, 221, 221, 0.37);
+
+
+}
+.s{
+display: flex;
+justify-content: center;
+background-color: rgba(221, 221, 221, 0.37);
+padding-bottom: 20px;
+
+}
+.s a{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+    color: #fff;
+    background-color:rgb(51, 168, 177) ;
+}
+.s a:hover{
+    background-color: #000;
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: .8px;
+    /* background: linear-gradient(-25deg, #5c4f4fa8, #424752d1); */
+    /* box-shadow: 2px 2px 3px 2px black; */
+background-color: #000;
+}
+
+.footer a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(51, 168, 177);
+    margin-left: 6px;
+}
+
+.footer i {
+    margin-left: 6px;
+}

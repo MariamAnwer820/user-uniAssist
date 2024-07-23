@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'pacifico', cursive;
+}
+
+body {
+    background-color: rgb(2, 2, 34);
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color: #413e3e63;
+    padding: 20px 0px;
+    margin-bottom: 50px;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+
+}
+
+
+img {
+    height: 40px;
+    left: 30px;
+}
+
+.content ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+
+.content li {
+    margin-left: 60px;
+    letter-spacing: 1.2px;
+}
+
+.content li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+
+
+}
+
+.content li a:hover {
+    color: rgb(12, 180, 192);
+    border-bottom: 3px solid rgb(12, 180, 192);
+    padding-bottom: 18px;
+    transition: 0.3s;
+}
+
+.content li a.dentistactive {
+
+    border-bottom: 2px solid rgb(12, 180, 192);
+    padding-bottom: 18px;
+    color: rgb(12, 180, 192);
+}
+
+#se {
+    color: rgb(12, 180, 192);
+
+}
+
+#search {
+    width: 100px;
+    border: transparent;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#login {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.content #login:hover {
+    color: rgb(12, 180, 192);
+    padding-bottom: 18px;
+    transition: 0.3s;
+}
+
+.cvs .cv1 {
+    border: 1px solid rgb(12, 180, 192);
+    width: 50%;
+    box-shadow: 0 0 16px -5px #fff;
+    margin: auto;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.cvs .cv1 .name {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+}
+.cvs .cv1 .name img {
+    width: 200px;
+    height: 200px;
+    
+}
+.cvs .cv1 .name h1{
+    margin-top: 50px;
+    color:rgb(12, 180, 192) ;
+}
+.cv1 h1 span {
+    color: #fff;
+    text-transform: capitalize;
+    padding-left: 40px;
+}
+.f1 {
+    display:flex
+}
+.f1 .info {
+    /* border-right: 1px solid #fff; */
+    margin: 5px 0px;
+    padding: 10px 40px;
+    background-color: rgb(255, 115, 0);
+}
+.f1 .info ul,
+.f1 .aboutme ul {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 20px;
+    text-transform: capitalize;
+}
+.f1 .info h3 {
+    text-transform: capitalize;
+    color:rgb(12, 180, 192) ;
+    text-align: left;
+    
+}
+.f1 .aboutme{
+    padding: 10px 20px ;
+    border-left: 1px solid #fff;
+    margin-left: 5px ;
+}
+.f1 .aboutme h3{
+    text-transform: capitalize;
+    color:rgb(12, 180, 192) ;
+}
+.f1 .aboutme p{
+    text-transform: capitalize;
+    margin: 10px 0px;
+}
+.cv1 .social {
+    border-top: 1px solid #fff;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+.cv1 .social i {
+    color:blue;
+    margin-left: 20px;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.cv1 .social i:hover {
+    transition: 0.5s ;
+    color: #fff;
+    background-color: transparent;
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: .8px;
+    /* background: linear-gradient(-25deg, #5c4f4fa8, #424752d1); */
+    /* box-shadow: 2px 2px 3px 2px black; */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(51, 168, 177);
+    margin-left: 6px;
+}
+
+.footer i {
+    margin-left: 6px;
+}

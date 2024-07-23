@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'pacifico', cursive;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: -99px; */
+    /* margin-top: 20px; */
+    background-color: #413e3e63;
+    padding: 20px 0px;
+    /* width: 100%; */
+    margin-bottom: 50px;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+
+}
+
+
+img {
+    height: 40px;
+    left: 30px;
+}
+
+.content ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/* .content #bt {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(12, 180, 192);
+    padding: 35px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 1.6px;
+    margin-left: 280px;
+    box-shadow: 0px 0px 3px 1px #00000021;
+    border-radius: 5px;
+}
+
+.content #bt:hover {
+    background-color: rgb(7, 153, 163);
+    transition: 0.5s;
+} */
+
+.content li {
+    margin-left: 60px;
+    letter-spacing: 1.2px;
+}
+
+.content li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+
+
+}
+
+.content li a:hover {
+    color: rgb(12, 180, 192);
+    border-bottom: 3px solid rgb(12, 180, 192);
+    padding-bottom: 18px;
+    transition: 0.3s;
+}
+
+.content li a.contactusactive {
+
+    border-bottom: 2px solid rgb(12, 180, 192);
+    padding-bottom: 18px;
+    color: rgb(12, 180, 192);
+} 
+
+.thefirst {
+    background-color: #080883;
+    /* background-image: url(../images/stock-photo-white-healthy-tooth-different-tools-for-dental-care-dental-background-1124412545-e1633675684902.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right;
+   background-attachment: fixed;
+   background-color: rgba(0, 0, 0, 0.568); */
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    height: 500px;
+    /* padding: 100px 50px; */
+    width: 100%;
+    padding-top: 50px;
+    margin-top: -150px;
+}
+.contactimage{
+    width: 200px;
+    height: 200px;
+}
+.thefirst h1 {
+    padding-bottom: 20px;
+margin-top: 150px;
+}
+
+.thesecond {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 50px;
+}
+
+.thesecond .card1,
+.thesecond .card2,
+.thesecond .card3 {
+    text-align: center;
+    text-transform: capitalize;
+    box-shadow: 0 17px 40px -5px #00000045;
+    margin-left: 40px;
+    border-radius: 5px;
+    width: 262px;
+    padding: 40px 20px;
+}
+
+.thesecond .card1:hover,
+.thesecond .card2:hover,
+.thesecond .card3:hover {
+
+    box-shadow: 0 17px 40px 5px #00000045;
+
+}
+
+.thesecond .card1 i,
+.thesecond .card2 i,
+.thesecond .card3 i {
+    color: rgb(7, 153, 163);
+    box-shadow: 0px 0px 6px 4px #00000038;
+    border: 2px solid #00000029;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.thesecond .card1 h2,
+.thesecond .card2 h2,
+.thesecond .card3 h2 {
+    margin: 10px 0px;
+
+}
+
+.thesecond .card1 h3,
+.thesecond .card2 h3,
+.thesecond .card3 h3 {
+    color: rgb(0 0 0 / 58%);
+}
+
+.thethird {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 80px 0px;
+}
+
+input::placeholder {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.thethird form {
+
+    background-color: rgba(34, 145, 189, 0.808);
+
+    width: 700px;
+    padding: 50px;
+    padding-left: 200px;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 9px 1px #0000002b; */
+    padding: 40px 0px;
+    margin: auto;
+
+
+}
+
+.colums {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+
+
+#head h1 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.colum2 {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.colums label {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.colums input {
+    border-color: transparent;
+    background-color: transparent;
+    border-bottom: 1px solid #ffffff62;
+    padding: 6px;
+    margin-top: 8px;
+}
+
+.colums input:focus {
+    border-bottom: 1px solid #fff;
+    outline: transparent;
+}
+
+span {
+    font-size: 15px;
+    margin-left: 5px;
+    color: #ff1313;
+}
+
+.colums input::placeholder {
+    color: #183d52ad;
+    font-size: 15px;
+    text-transform: capitalize;
+
+}
+.message {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /* margin-top: 30px; */
+}
+
+textarea {
+    height: 70px;
+    width: 300px;
+    background-color: transparent;
+    /* /* margin-top: 10px; */
+    /* margin-bottom: 25px; */ 
+    border-color: #ffffff62;
+
+}
+
+textarea::placeholder {
+    color: #183d52ad;
+    text-transform: capitalize;
+    padding: 20px;
+    /* font-weight: 700; */
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+
+textarea:focus {
+    outline: transparent;
+    border-color: #fff;
+}
+#send {
+    background-color: #fff;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-right: 200px;
+margin-top: 30px;
+}
+#send:hover{
+    cursor: pointer;
+    background-color: #000;
+    transition: 0.3s;
+    color: #fff;
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: .8px;
+    /* background: linear-gradient(-25deg, #5c4f4fa8, #424752d1); */
+    /* box-shadow: 2px 2px 3px 2px black; */
+background-color: #000;
+}
+
+.footer a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(51, 168, 177);
+    margin-left: 6px;
+}
+
+.footer i {
+    margin-left: 6px;
+}

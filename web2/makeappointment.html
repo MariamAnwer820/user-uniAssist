@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta title="description" content="this is a make an appoint ment page">
+    <link rel="stylesheet" href="css/makeappointment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css ">
+    <title>Make Appointment | Eluda Care</title>
+</head>
+
+<body>
+    <div class="content">
+        <ul>
+            <li>
+                <a href="index.html" target="_blank">home</a>
+            </li>
+            <li>
+                <a href="dentist.html" title=" visit our docotors" target="_blank">dentist </a>
+            </li>
+            <li>
+                <a href="About us.html" title=" read anout us" target="_blank">about us</a>
+            </li>
+            <li>
+                <a href="services.html" title="visit our services" target="_blank">services</a>
+            </li>
+            <li>
+                <a href="pricing.html" title=" our pricing">pricing</a>
+            </li>
+
+            <li>
+                <a href="contact.html" title="contact us" target="_blank" class="contactusactive">Contact us</a>
+            </li>
+
+        </ul>
+        <div class="log">
+            <a href="Login.html" id="login" target="_blank"><i class="fa-solid fa-user "></i> Login</a>
+
+        </div>
+    </div>
+    <div class="thefirstapp">
+        <h2>Make An Appointment</h2>
+        <p> you can book an appointment on this page</p>
+    </div>
+    <div class="appointment">
+        <form id="form" action="">
+            <div id="head">
+                <h1>Make An Appointment</h1>
+            </div>
+            <div class="colums">
+                <div class="colum1">
+                    <div>
+                        <label for="name">Your full name<span>*</span></label>
+                        <br>
+                        <input type="text" name="name" maxlength="50" id="name" required placeholder="Your Full name">
+                    </div>
+                    <br>
+
+                    <br>
+
+                    <div>
+                        <label for="phone"> phone number<span>*</span></label>
+                        <br>
+                        <input type="number" id="phone" maxlength="11" name="phone" placeholder="Your phone numer">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="time">appointment time</label>
+                        <br>
+                        <input type="time" id="time" name="time" placeholder="appointment time">
+                    </div>
+                </div>
+                <br>
+
+                <div class="colum2">
+                    <div>
+                        <label for="address ">email address<span>*</span></label>
+                        <br>
+                        <input type="email" id="address" name=" address" placeholder="mrefaay271@gamil.com">
+                    </div>
+                    <br>
+                    <div class="date">
+
+                        <label for="date">appointment date</label>
+                        <br>
+                        <input type="date" id="date" placeholder="appointment date">
+
+                    </div>
+                    <br>
+                    <div>
+                        <label for="select">SELECT A DOCTOR</label>
+                        <br>
+                        <select name="Select" id="select">
+                            <optgroup>
+                                <option value="select docotor" hidden>Select Docotor</option>
+                                <option value="Nada kamel">Dr.Nada kamel</option>
+                                <option value="Walid Elsaid">Dr.Ali Badr</option>
+                                <option value="Mohamed Ahmed">Dr.Noureldin Mostafa</option>
+                                <option value="Eman Saaed">Dr.Aliaa Elmasry</option>
+                            </optgroup>
+
+                        </select>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <br>
+
+            <div>
+                <label for="message" class="message">message</label><br>
+
+                <textarea id="mesaage" name="message" maxlength="150" placeholder="message"></textarea>
+            </div>
+
+            <input type="reset" value="reset" id="reset">
+            <input type="submit" value="book appointment" id="book">
+        </form>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright &copy;2022 All rights reserved | This template is made with<i class="fa-solid fa-heart"></i><a
+                href="#">By BFCAI TEAM</a></p>
+    </div>
+</body>
+
+</html>
