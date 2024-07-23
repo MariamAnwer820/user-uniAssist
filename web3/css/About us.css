@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'pacifico', cursive;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #413e3e63;
+    padding: 20px 0px;
+    margin-bottom: 50px;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+
+}
+
+.content ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+.content li {
+    margin-left: 60px;
+    letter-spacing: 1.2px;
+}
+
+.content li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+
+
+}
+#se {
+    color: rgb(12, 180, 192);
+
+}
+
+#search {
+    width: 100px;
+    border: transparent;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#login {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.content #login:hover {
+    color: rgb(12, 180, 192);
+    padding-bottom: 18px;
+    transition: 0.3s;
+}
+.content li a:hover {
+    color: rgb(12, 180, 192);
+    border-bottom: 3px solid rgb(12, 180, 192);
+    padding-bottom: 18px;
+    transition: 0.3s;
+}
+
+.content li a.contactusactive {
+
+    border-bottom: 2px solid rgb(12, 180, 192);
+    padding-bottom: 18px;
+    color: rgb(12, 180, 192);
+}
+
+.thefirst {
+    background-color: #000000;
+    
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    height: 400px;
+    width: 100%;
+    padding-top: 50px;
+    margin-top: -150px;
+    margin-bottom: 20px;
+}
+
+.contactimage {
+    width: 200px;
+    height: 200px;
+}
+
+.thefirst h1 {
+    padding-bottom: 20px;
+    margin-top: 150px;
+}
+
+
+.teeth {
+    
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.teeth .heading{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.teeth img{
+    border-radius: 5px;
+}
+
+.text {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    color: rgb(0, 162, 255);
+    width: 30cm;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: .8px;
+    background-color: #000;
+}
+
+.footer a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(51, 168, 177);
+    margin-left: 6px;
+}
+
+.footer i {
+    margin-left: 6px;
+}

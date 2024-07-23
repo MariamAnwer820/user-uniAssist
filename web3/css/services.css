@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'pacifico', cursive;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color: #413e3e63;
+    padding: 20px 0px;
+    margin-bottom: 50px;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+
+}
+
+
+img {
+    height: 40px;
+    left: 30px;
+}
+
+.content ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+
+.content li {
+    margin-left: 60px;
+    letter-spacing: 1.2px;
+}
+
+.content li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+
+
+}
+
+.content li a:hover {
+    color: rgb(12, 180, 192);
+    border-bottom: 3px solid rgb(12, 180, 192);
+    padding-bottom: 18px;
+    transition: 0.3s;
+}
+
+.content li a.servicesactive {
+
+    border-bottom: 2px solid rgb(12, 180, 192);
+    padding-bottom: 18px;
+    color: rgb(12, 180, 192);
+}
+
+#se {
+    color: rgb(12, 180, 192);
+
+}
+
+#search {
+    width: 100px;
+    border: transparent;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#login {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.content #login:hover {
+    color: rgb(12, 180, 192);
+    padding-bottom: 18px;
+    transition: 0.3s;
+}
+
+.serv1div {
+    background-image: url(../images/stock-photo-white-healthy-tooth-different-tools-for-dental-care-dental-background-1124412545-e1633675684902.jpg);
+    background-color: rgba(0, 0, 0, 0.418);
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 600px;
+    margin-top: -120px;
+    color: #fff;
+    text-align: left;
+    padding-top: 200px;
+    padding-left: 50px;
+    text-transform: capitalize;
+
+}
+
+.servicesone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.servicesone .serv1,
+.servicesone .serv2,
+.servicesone .serv3,
+.servicesone .serv4 {
+    width: 25%;
+    text-align: center;
+    padding: 20px 10px;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 5px 5px #00000036;
+    margin-left: 20px;
+    border-radius: 5px;
+    background: linear-gradient(360deg, blue 5%, #fff 5%);
+    height: 300px;
+}
+.servicesone .serv1 p,
+.servicesone .serv2 p,
+.servicesone .serv3 p ,
+.servicesone .serv4 p {
+    color: rgba(0, 0, 0, 0.521);
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.servicesone .serv1:hover,
+.servicesone .serv2:hover,
+.servicesone .serv3:hover,
+.servicesone .serv4:hover{
+    background: linear-gradient(360deg, blue 100%, #fff 0%);
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(15px);
+}
+.servicesone .serv1:hover p,
+.servicesone .serv2:hover p,
+.servicesone .serv3:hover p ,
+.servicesone .serv4:hover p {
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.servicesone .serv1:hover h2,
+.servicesone .serv2:hover h2,
+.servicesone .serv3:hover h2 ,
+.servicesone .serv4:hover h2 {
+    color: #fff;
+    
+
+}
+
+.middleservices{
+    background-image: url(../images/dental_health_amid_covid_header.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.middleservices h3{
+    text-shadow: 3px 3px 7px black;
+}
+.middleservices a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(12, 180, 192);
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.411);
+font-size: 18px;
+font-weight: bold;
+}
+.middleservices a:hover{
+    color:rgb(12, 180, 192);
+    background-color: #fff;
+    transition: 0.3s;
+}
+.servicestwo .serv5,
+.servicestwo .serv6,
+.servicestwo .serv7,
+.servicestwo .serv8 {
+    width: 25%;
+    text-align: center;
+    padding: 20px 10px;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 5px 5px #00000036;
+    margin-left: 20px;
+    border-radius: 5px;
+    background: linear-gradient(360deg, blue 5%, #fff 5%);
+    height: 300px;
+}
+.servicestwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+.servicestwo .serv5:hover,
+.servicestwo .serv6:hover,
+.servicestwo .serv7:hover,
+.servicestwo .serv8:hover{
+    background: linear-gradient(360deg, blue 100%, #fff 0%);
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(-15px);
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: .8px;
+
+    background-color: #000;
+}
+
+.footer a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(51, 168, 177);
+    margin-left: 6px;
+}
+
+.footer i {
+    margin-left: 6px;
+}

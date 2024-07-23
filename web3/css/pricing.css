@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'pacifico', cursive;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #413e3e63;
+    padding: 20px 0px;
+    margin-bottom: 50px;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+
+}
+
+
+img {
+    height: 40px;
+    left: 30px;
+}
+
+.content ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+
+.content li {
+    margin-left: 60px;
+    letter-spacing: 1.2px;
+}
+
+.content li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+
+
+}
+
+.content li a:hover {
+    color: rgb(12, 180, 192);
+    border-bottom: 3px solid rgb(12, 180, 192);
+    padding-bottom: 18px;
+    transition: 0.3s;
+}
+
+.content li a.pricingactive {
+
+    border-bottom: 2px solid rgb(12, 180, 192);
+    padding-bottom: 18px;
+    color: rgb(12, 180, 192);
+}
+
+#se {
+    color: rgb(12, 180, 192);
+
+}
+
+#search {
+    width: 100px;
+    border: transparent;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#login {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.content #login:hover {
+    color: rgb(12, 180, 192);
+    padding-bottom: 18px;
+    transition: 0.3s;
+}
+
+div {
+    text-align: center;
+    margin: auto;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(../images/Dental-Clinic02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    width: 600px;
+    background-color: rgba(34, 145, 189, 0.808);
+    margin: auto;
+    text-align: center;
+    border: 4px solid #000;
+    border-color: black;
+}
+
+thead {
+    font-weight: bold;
+    background: rgb(231, 230, 230);
+}
+
+table th,
+table td {
+    display: table-cell;
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.title1 h2 {
+    background: black;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    width: 450px;
+}
+
+.title2 h2 {
+    background: black;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    width: 450px;
+}
+
+.title3 h2 {
+    background: black;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    width: 450px;
+}
+
+.title4 h2 {
+    background: black;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    width: 450px;
+}
+
+span1,
+span2,
+span3,
+span4,
+span5 {
+    width: 170px;
+    height: 150px;
+    margin: 30px;
+    padding: 35px;
+    display: inline-block;
+    overflow: auto;
+    border-radius: 40px;
+
+}
+
+
+span1 {
+    background-color: rgba(6, 183, 252, 0.808);
+
+}
+
+span2 {
+
+    background-color: rgba(251, 255, 255, 0.788);
+
+}
+
+span3 {
+    background-color: rgba(255, 217, 0, 0.844);
+
+}
+
+span4 {
+    background-color: rgba(3, 3, 3, 0.842);
+    color: white;
+
+}
+
+span5 {
+    background-color: rgba(255, 0, 0, 0.894);
+
+}
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: .8px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.footer a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(51, 168, 177);
+    margin-left: 6px;
+}
+
+.footer i {
+    margin-left: 6px;
+}
